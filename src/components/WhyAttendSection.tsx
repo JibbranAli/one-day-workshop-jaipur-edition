@@ -5,28 +5,33 @@ const WhyAttendSection = () => {
   const reasons = [
     {
       icon: <Laptop className="w-6 h-6" />,
-      title: "100% Practical & Hands-On Learning",
-      description: "Real-time learning with live project building"
+      title: "100% Practical Learning",
+      description: "No theory overload, just pure hands-on on AI, Docker, Computer Vision & Cloud"
     },
     {
       icon: <Settings className="w-6 h-6" />,
-      title: "Build Your Portfolio Project for GitHub",
-      description: "Create industry-level project for your GitHub"
+      title: "Build a Real Project in 1 Day",
+      description: "Learn by doing and walk away with something you built"
     },
     {
       icon: <Award className="w-6 h-6" />,
-      title: "Participation Certificate for All Attendees",
-      description: "Official certificate for all attendees"
-    },
-    {
-      icon: <User className="w-6 h-6" />,
-      title: "Career Mentorship from Industry Expert",
-      description: "Get guidance from industry expert who transformed 10,00,000+ careers"
+      title: "Certificate of Excellence",
+      description: "Stand out in your resume with a workshop certificate by Mr. Vimal Daga"
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: "Networking Opportunity with 1000+ Learners",
-      description: "Connect with passionate developers and tech enthusiasts"
+      title: "Network with 1000+ Tech Enthusiasts",
+      description: "Collaborate, learn & connect with the best minds"
+    },
+    {
+      icon: <User className="w-6 h-6" />,
+      title: "Delivered by a World Record Holder",
+      description: "Learn directly from Mr. Vimal Daga, the DevOps & AI Guru"
+    },
+    {
+      icon: <Award className="w-6 h-6" />,
+      title: "Absolutely Free of Cost",
+      description: "Zero fee. Unlimited learning. One powerful Saturday."
     }
   ];
 
@@ -35,10 +40,10 @@ const WhyAttendSection = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold mb-4 text-gray-900">
-            Why Attend?
+            Why You Can't Miss This!
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Join thousands of engineering students in this transformative learning experience
+            This isn't just a workshop — it's a launchpad for your technical career
           </p>
         </div>
 

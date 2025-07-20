@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900 overflow-x-hidden">
       <HeroSection />
+      <ModulesSection />
       <WhyAttendSection />
       <WhoShouldAttendSection />
-      <ModulesSection />
       <MentorSection />
       <RegistrationSection />
       <Footer />

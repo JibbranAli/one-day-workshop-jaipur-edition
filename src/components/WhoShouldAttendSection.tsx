@@ -1,37 +1,43 @@
 import React from 'react';
-import { GraduationCap, Users, BookOpen, Code, Lightbulb, Target } from 'lucide-react';
+import { GraduationCap, Users, BookOpen, Code, Lightbulb, Target, Award } from 'lucide-react';
 
 const WhoShouldAttendSection = () => {
   const targetAudience = [
     {
       icon: <GraduationCap className="w-6 h-6" />,
-      title: "Engineering Students",
-      description: "B.Tech, M.Tech – all branches",
+      title: "Engineering Students (B.Tech – All branches)",
+      description: "Computer Science, IT, Electronics, Mechanical, Civil and all other branches",
       category: "Students"
     },
     {
       icon: <BookOpen className="w-6 h-6" />,
-      title: "BCA / MCA Students",
-      description: "Computer Applications students",
+      title: "BCA & MCA Students",
+      description: "Computer Applications and Computer Science students",
       category: "Students"
     },
     {
       icon: <Users className="w-6 h-6" />,
-      title: "Polytechnic & Diploma Students",
-      description: "Technical education students",
+      title: "Diploma & Polytechnic Students",
+      description: "Technical education and diploma students",
       category: "Students"
     },
     {
       icon: <Lightbulb className="w-6 h-6" />,
-      title: "Beginners & Tech Learners",
-      description: "Anyone passionate about technology",
+      title: "Technical Freshers Looking to Upskill",
+      description: "Recent graduates and freshers wanting to enhance their skills",
       category: "Learners"
     },
     {
       icon: <Code className="w-6 h-6" />,
-      title: "Passionate Developers & Coders",
-      description: "Experienced and aspiring developers",
-      category: "Developers"
+      title: "Working Professionals Exploring New Technologies",
+      description: "Professionals wanting to learn new technologies and tools",
+      category: "Professionals"
+    },
+    {
+      icon: <Award className="w-6 h-6" />,
+      title: "Final Year Students Preparing for Placements",
+      description: "Students in their final year preparing for job placements",
+      category: "Students"
     }
   ];
 

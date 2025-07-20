@@ -259,7 +259,7 @@ const RegistrationSection = () => {
                 disabled={isSubmitting}
                 className="w-full bg-red-500 hover:bg-red-600 disabled:bg-gray-400 text-white py-4 rounded-lg text-lg font-medium transition-colors"
               >
-                {isSubmitting ? 'Submitting...' : 'Register for Free Workshop'}
+                {isSubmitting ? 'Submitting...' : 'Reserve My Free Seat'}
               </button>
 
               <p className="text-center text-gray-600 text-sm">

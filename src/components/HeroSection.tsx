@@ -59,7 +59,11 @@ const HeroSection = () => {
           className="max-w-4xl mx-auto"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-gray-900">
-            THE BIGGEST ONE-DAY FREE TECHNICAL HANDS-ON WORKSHOP
+            <div className="leading-tight">
+              <div>THE BIGGEST ONE-DAY</div>
+              <div>FREE TECHNICAL</div>
+              <div>HANDS-ON WORKSHOP</div>
+            </div>
           </h1>
           
           <p className="text-xl md:text-2xl text-red-500 font-semibold mb-2">
@@ -71,17 +75,17 @@ const HeroSection = () => {
           </p>
           
           <p className="text-lg text-gray-600 mb-8">
-            Hands-on Learning Experience at G D Badaya Auditorium, Jaipur
+            Hands-on Learning Experience at G D Badaya Auditorium, Mansarovar Jaipur
           </p>
 
           <div className="flex flex-wrap justify-center gap-4 mb-8 text-sm">
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border">
               <Calendar className="w-4 h-4 text-red-500" />
-              <span>This Saturday</span>
+              <span>This Saturday - 26th July 2025</span>
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border">
               <Clock className="w-4 h-4 text-red-500" />
-              <span>10:00 AM Onwards</span>
+              <span>11:00 AM Onwards</span>
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border">
               <Award className="w-4 h-4 text-red-500" />
@@ -89,7 +93,7 @@ const HeroSection = () => {
             </div>
             <div className="flex items-center gap-2 bg-white px-4 py-2 rounded-full shadow-sm border">
               <Users className="w-4 h-4 text-red-500" />
-              <span>Limited to 1000 Participants</span>
+              <span>Hands On Project</span>
             </div>
           </div>
 
@@ -102,10 +106,6 @@ const HeroSection = () => {
           
           <p className="text-green-600 font-semibold text-lg mt-4 mb-2">
             Absolutely FREE Entry
-          </p>
-          
-          <p className="text-gray-600 text-sm">
-            G D Badaya Auditorium, Jaipur
           </p>
         </motion.div>
       </div>
