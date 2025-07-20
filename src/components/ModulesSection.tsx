@@ -29,10 +29,10 @@ const ModulesSection = () => {
     <section className="py-16 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold mb-4 text-gray-900">
+          <h2 className="text-4xl font-bold mb-4 text-gray-900 animate-fade-in-up">
             What You'll Learn
           </h2>
-          <p className="text-gray-600">
+          <p className="text-gray-600 animate-fade-in-up stagger-1">
             7 hours of structured, hands-on learning
           </p>
         </div>
@@ -41,10 +41,11 @@ const ModulesSection = () => {
           {modules.map((module, index) => (
             <div
               key={index}
-              className="bg-gray-50 border rounded-lg p-6 hover:shadow-sm transition-shadow"
+              className="bg-gray-50 border rounded-lg p-6 hover:shadow-sm transition-shadow card-hover animate-fade-in-up"
+              style={{ animationDelay: `${0.3 + index * 0.1}s` }}
             >
               <div className="flex items-center gap-4">
-                <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium flex items-center gap-2">
+                <div className="bg-red-500 text-white px-3 py-1 rounded-full text-sm font-medium flex items-center gap-2 icon-bounce">
                   <Clock className="w-4 h-4" />
                   {module.hour}
                 </div>
